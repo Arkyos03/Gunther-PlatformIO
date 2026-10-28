@@ -1,0 +1,47 @@
+{
+  "name": "gunther",
+  "title": "Gunther.ino (AIR ESIEA)",
+  "description": "Cartes Gunther.ino des fusées d'AIR ESIEA : minifusée (ATSAMD51J20A). Même cœur Arduino et même bibliothèque Gunther que dans l'Arduino IDE.",
+  "homepage": "https://github.com/Arkyos03/Gunther-PlatformIO",
+  "license": "MIT",
+  "keywords": [
+    "dev-platform",
+    "ARM",
+    "Cortex-M",
+    "SAMD51",
+    "AIR ESIEA",
+    "rocket"
+  ],
+  "engines": {
+    "platformio": "^6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Arkyos03/Gunther-PlatformIO.git"
+  },
+  "version": "0.1.5",
+  "frameworks": {
+    "arduino": {
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "owner": "platformio",
+      "version": "^1.90201.0"
+    },
+    "tool-bossac": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "^1.10900.0"
+    },
+    "tool-openocd": {
+      "type": "uploader",
+      "optional": true,
+      "owner": "platformio",
+      "version": "*"
+    }
+  }
+}

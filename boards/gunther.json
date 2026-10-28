@@ -1,0 +1,35 @@
+{
+  "build": {
+    "arduino": {
+      "ldscript": "flash_with_bootloader.ld"
+    },
+    "core": "gunther",
+    "cpu": "cortex-m4",
+    "extra_flags": "-D__SAMD51J20A__ -DARDUINO_GUNTHER",
+    "f_cpu": "120000000L",
+    "hwids": [["0x1209", "0x0001"]],
+    "mcu": "samd51j20a",
+    "usb_product": "Gunther.ino",
+    "variant": "gunther"
+  },
+  "debug": {
+    "openocd_target": "atsame5x",
+    "svd_path": "ATSAMD51J20A.svd"
+  },
+  "frameworks": ["arduino"],
+  "name": "Gunther.ino (Rev A)",
+  "upload": {
+    "disable_flushing": true,
+    "maximum_ram_size": 262140,
+    "maximum_size": 1024000,
+    "native_usb": true,
+    "offset_address": "0x4000",
+    "protocol": "sam-ba",
+    "protocols": ["sam-ba", "cmsis-dap", "stlink"],
+    "require_upload_port": true,
+    "use_1200bps_touch": true,
+    "wait_for_upload_port": true
+  },
+  "url": "https://github.com/Arkyos03/Gunther-PlatformIO",
+  "vendor": "AIR ESIEA"
+}
