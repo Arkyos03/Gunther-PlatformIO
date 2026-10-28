@@ -104,7 +104,6 @@ le dépôt [Gunther-Arduino](https://github.com/Arkyos03/Gunther-Arduino).
 **Le téléversement ne marche plus** (programme planté, port introuvable) : appuie deux fois rapidement
 sur **RESET**. La carte passe en mode bootloader : relance le téléversement.
 
-Pour toute autre question, contacte Arkyos03 ou l'association : air-esiea@et.esiea.fr
 
 ---
 
